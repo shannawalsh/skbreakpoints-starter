@@ -1,12 +1,21 @@
 
+body {
+	background: #aacde2;
+	/*----blue ----*/
+}
+
 /* ----------- Tablets larger than 768px wide ----------- */
-@media () {
+@media (min-width: 768px) {
 	body {
-    background: red;
+    background: #d0aae2;
+		/*----purple----*/
   }
 }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
-@media () {
-
+@media (min-width: 1200px) {
+  body {
+		background: #ed9f9c;
+		/*----pink----*/
+	}
 }
